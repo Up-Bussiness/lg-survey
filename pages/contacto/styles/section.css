@@ -1,0 +1,74 @@
+section
+{
+position: relative;
+height: 100vh;
+width: 100%;
+}
+h2
+{
+position: relative;
+width: 100%;
+color: #000000;
+font-size: 50px;
+font-weight: 500;
+font-family: 'Montserrat',sans-serif;
+text-transform: uppercase;
+text-align: center;
+padding: 20px 0;
+letter-spacing: 2.5px;
+}
+form
+{
+position: relative;
+display: block;
+margin: 0 auto;
+height: 80%;
+width: 80%;
+border-radius: 15px;
+background-color: #00519A;
+border: double white 10px;
+box-shadow: 0vw 1vh 15px rgba(0, 0, 0, 0.6);
+}
+form label, form button
+{
+position: relative;
+display: block;
+margin: 3% auto;
+width: 90%;
+text-align: center;
+font-size: 30px;
+color: #ffffff;
+transition: 0.3s ease;
+border: none;
+}
+form button
+{
+width: 50%;
+border-radius: 15px;
+padding: 2vh 0;
+cursor: pointer;
+color: #00519A;
+background-color: #ffffff;
+}
+form button:hover
+{
+color: #ffffff;
+background-color: #00519A;
+border: solid white 2px;
+}
+form input, form textarea
+{
+padding: 2vh 0;
+font-size: 24px;
+border-radius: 15px;
+border: none;
+margin: 2vh 0;
+width: 60%;
+}
+@media screen and (max-width: 500px)
+{
+ 	h2
+	{
+	font-size: 35px;
+	}
+}

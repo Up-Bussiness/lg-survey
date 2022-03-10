@@ -1,0 +1,26 @@
+:root
+{
+--size: 14vh;
+}
+
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'DM Sans', sans-serif;
+}
+
+.wbtn
+{
+position: fixed;
+bottom: 2.5vh;
+right: 1vw;
+height: var(--size);
+width: var(--size);
+z-index: 99;
+}
+	.wbtn img
+	{
+	height: 100%;
+	}

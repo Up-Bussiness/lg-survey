@@ -1,0 +1,172 @@
+section
+{
+position: relative;
+height: 155vh;
+width: 100%;
+}
+	section h1
+	{
+	position: relative;
+	width: 100%;
+	font-size: 35px;
+	margin: 3vh 0;
+	text-align: center;
+	color: #000000;
+	}
+	.sp
+	{
+	position: relative;
+	width: 100%;
+	font-size: 24px;
+	text-align: justify;
+	padding: 0 10vw;
+	margin: 2vw 0;
+	}
+	section a
+	{
+	position: relative;
+	float: left;
+	height: 50vh;
+	width: calc(100%/2.2);
+	margin: 2vh 2vw;
+	text-decoration: none;
+	overflow: hidden;
+	border-radius: 15px;
+	box-shadow: 0vw 1vh 15px rgba(0, 0, 0, 0.6);
+	}
+	section a img
+	{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	filter: brightness(50%);
+	z-index: -1;
+	transition: 0.3s ease;
+	}
+	section a p:nth-child(1)
+	{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+	margin: 2vh 0;
+	font-size: 24px;
+	color: #ffffff;
+	text-transform: capitalize;
+	z-index: 2;
+	}
+	section a p:nth-child(2)
+	{
+	position: absolute;
+	bottom: 1vh;
+	left: -20vw;
+	color: #ffffff;
+	font-size: 2vw;
+	transition: 0.3s ease;
+	z-index: 2;
+	}
+	section a div
+	{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	transition: 0.3s ease;
+	z-index: 1;
+	}
+	section a:hover  img
+	{
+	filter: brightness(110%);
+	}
+	section a:hover  div
+	{
+	background-color: rgba(255, 255, 255, 40%);
+	}
+	section a:hover  p:nth-child(2)
+	{
+	left: 1vw;
+	color: #000000;
+	}
+	section a:hover  p:nth-child(1)
+	{
+	color: #000000;
+	}
+@media screen and (max-width: 900px)
+{
+	section a img
+	{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 100%;
+	filter: brightness(50%);
+	z-index: -1;
+	transition: 0.3s ease;
+	}
+}
+
+@media screen and (max-width: 800px)
+{
+section
+{
+position: relative;
+height: 180vh;
+width: 100%;
+}
+}
+@media screen and (max-width: 600px)
+{
+section
+{
+position: relative;
+height: 330vh;
+width: 100%;
+}
+	section a
+	{
+	position: relative;
+	float: left;
+	height: 55vh;
+	width: 95%;
+	border: solid black 2px;
+	margin: 2vh 2vw;
+	text-decoration: none;
+	overflow: hidden;
+	border-radius: 15px;
+	}
+}
+@media screen and (max-width: 400px)
+{
+section
+{
+position: relative;
+height: 360vh;
+width: 100%;
+}
+	section a img
+	{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 100%;
+	width: auto;
+	filter: brightness(50%);
+	z-index: -1;
+	transition: 0.3s ease;
+	}
+}
+@media screen and (max-width: 400px)
+{
+section
+{
+position: relative;
+height: 380vh;
+width: 100%;
+}
+}

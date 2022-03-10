@@ -1,0 +1,101 @@
+section
+{
+position: relative;
+height: 320vh;
+width: 100%;
+}
+.di, .dp
+{
+position: relative;
+float: left;
+width: calc(100%/2.2);
+margin: 2vh 2vw;
+height: 150vh;
+overflow: hidden;
+border-radius: 15px;
+box-shadow: 0vw 1vh 15px rgba(0, 0, 0, 0.6);
+}
+	.di div:nth-child(1), .dp div:nth-child(3)
+	{
+	position: relative;
+	width: 100%;
+	height: 35%;
+	}
+		.di div:nth-child(1) img, .dp div:nth-child(3) img
+		{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 100%;
+		border-radius: 15px;
+		}
+
+	.di div:nth-child(2), .dp div:nth-child(1)
+	{
+	position: relative;
+	width: 100%;
+	height: 15%;
+	}
+		.di div:nth-child(2) img, .dp div:nth-child(1) img
+		{
+		position: relative;
+		height: 90%;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		}
+	.di div:nth-child(3), .dp div:nth-child(2)
+	{
+	position: relative;
+	width: 100%;
+	height: 45%;
+	}
+		.di div:nth-child(3) p, .dp div:nth-child(2) p
+		{
+		position: relative;
+		margin: 2vh 2vw;
+		font-size: 25px;
+		width: 100%;
+		text-align: center;
+		}
+		.di div:nth-child(3) ul, .dp div:nth-child(2) ul
+		{
+		position:relative;
+		left: 5vw;
+		width: 95%;
+		}
+		.di div:nth-child(3) li, .dp div:nth-child(2) li
+		{
+		font-size: 20px;
+		margin: 2vh 0;
+		}
+@media screen and (max-width: 799px)
+{
+section
+{
+position: relative;
+height: 620vh;
+width: 100%;
+}
+.di, .dp
+{
+width: 80%;
+margin: 2vh 10%;
+}
+}
+@media screen and (max-width: 399px)
+{
+section
+{
+position: relative;
+height: 850vh;
+width: 100%;
+}
+.di, .dp
+{
+height: 200vh;
+width: 80%;
+margin: 2vh 10%;
+}
+}
